@@ -212,7 +212,7 @@
     <div class="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-[70] flex flex-col gap-2"><template x-for="t in toasts" :key="t.id"><div x-show="t.show" x-transition.slide.up class="px-4 py-3 rounded-lg shadow-xl text-sm font-medium flex items-center gap-2 min-w-[300px]" :class="t.type === 'error' ? 'bg-red-500 text-white' : 'bg-slate-800 text-white'"><i :class="t.type === 'error' ? 'fa-solid fa-circle-exclamation' : 'fa-solid fa-circle-check'"></i><span x-text="t.message"></span></div></template></div>
 
     <script>
-        const API_BASE = 'https://img.gzy.wang'; 
+        const API_BASE = 'https://img-api.gzy.wang'; 
 
         function appData() {
             return {
@@ -394,5 +394,6 @@
     </script>
 </body>
 </html>
+
 
 
