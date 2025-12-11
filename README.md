@@ -188,4 +188,5 @@ INSERT OR IGNORE INTO settings (key, value) VALUES ('maintenance_mode', 'false')
 
 ## 📄 开源协议 (License)
 
-GPL
+[![License](https://img.shields.io/github/license/gzy318/lx_img)](https://github.com/gzy318/lx_img/blob/main/LICENSE)
+
